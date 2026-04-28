@@ -447,13 +447,13 @@
 
       <aside class="profile-card" aria-label="個人資料卡">
         <div class="profile-inner">
-          <div class="avatar">你</div>
-          <h2>你的名字 / Your Name</h2>
-          <p>在這裡放一句簡短介紹，例如：藥學 × 資訊 × 資料庫查詢系統設計。</p>
+          <div class="avatar">謝</div>
+          <h2>謝沛宸</h2>
+          <p>藥師背景，專注於藥學資訊、臨床資料整理、院內查詢工具與醫療資料庫應用。</p>
           <div class="stats">
-            <div class="stat"><strong>12+</strong><span>Projects</span></div>
-            <div class="stat"><strong>3</strong><span>Web Apps</span></div>
-            <div class="stat"><strong>100%</strong><span>Static Site</span></div>
+            <div class="stat"><strong>藥學</strong><span>Domain</span></div>
+            <div class="stat"><strong>資料</strong><span>Database</span></div>
+            <div class="stat"><strong>工具</strong><span>Web Apps</span></div>
           </div>
         </div>
       </aside>
@@ -463,25 +463,25 @@
       <div class="container">
         <div class="section-title">
           <h2>精選專案</h2>
-          <p>可把下方三張卡片改成你的實際 GitHub repository、藥品查詢系統、ICD-10-CM 檢索器或資料處理專案。</p>
+          <p>以下整理目前最適合放在 GitHub 首頁的代表作品，呈現藥學專業與資訊工具開發能力。</p>
         </div>
         <div class="grid">
           <article class="card">
             <div class="card-icon">💊</div>
-            <h3>藥品資料快速檢索系統</h3>
-            <p>以 Google Sheet 作為資料源，支援藥名、成分、院內碼、ATC code 查詢。</p>
+            <h3>院內藥品資料快速檢索系統</h3>
+            <p>以 Google Sheets 作為資料源，支援成分、英文品名、中文品名、院內碼、健保碼與 ATC code 查詢，協助藥師快速取得藥品資訊。</p>
             <a class="project-link" href="#">查看專案 →</a>
           </article>
           <article class="card">
             <div class="card-icon">🧬</div>
             <h3>ICD-10-CM 快速檢索器</h3>
-            <p>支援代碼、英文疾病名、中文疾病名查詢，並可顯示父層與子項階層。</p>
+            <p>支援代碼、英文疾病名、中文疾病名查詢，並可呈現父層、子項、USE 狀態與階層式結果，適合臨床編碼與資料查核使用。</p>
             <a class="project-link" href="#">查看專案 →</a>
           </article>
           <article class="card">
             <div class="card-icon">📊</div>
-            <h3>Excel / CSV 資料清理工具</h3>
-            <p>整合多來源資料表，建立可維護、可比對、可輸出的資料處理流程。</p>
+            <h3>ATC / AHFS / 健保資料整合流程</h3>
+            <p>整合衛福部資料集、健保給付資料、ATC/AHFS 分類與院內藥品表，建立可定期更新、可比對、可輸出的藥品資料庫雛形。</p>
             <a class="project-link" href="#">查看專案 →</a>
           </article>
         </div>
@@ -492,23 +492,23 @@
       <div class="container">
         <div class="section-title">
           <h2>技能重點</h2>
-          <p>用簡潔的方式呈現你的能力，不需要太複雜，但要讓訪客快速知道你會什麼。</p>
+          <p>結合藥師專業、資料表設計與前端查詢介面，將臨床資料轉換成可使用、可維護的資訊工具。</p>
         </div>
         <div class="grid">
           <div class="card">
             <div class="card-icon">⚙️</div>
-            <h3>Web App 開發</h3>
-            <p>Google Apps Script、HTML、CSS、JavaScript、RWD 響應式介面。</p>
+            <h3>Web App 與查詢介面</h3>
+            <p>使用 HTML、CSS、JavaScript 與 Google Apps Script 設計可部署、可維護、跨平台的資料查詢工具。</p>
           </div>
           <div class="card">
             <div class="card-icon">🗂️</div>
-            <h3>資料庫與試算表</h3>
-            <p>Excel、Google Sheets、欄位標準化、資料清理、版本維護。</p>
+            <h3>醫療資料表設計</h3>
+            <p>熟悉 Excel、Google Sheets、欄位標準化、資料清理、跨表合併、版本管理與定期更新流程。</p>
           </div>
           <div class="card">
             <div class="card-icon">🚀</div>
-            <h3>GitHub 部署</h3>
-            <p>GitHub Pages 靜態網站部署，不依賴 Node.js，降低 Actions 失敗風險。</p>
+            <h3>GitHub Pages 部署</h3>
+            <p>以純 HTML/CSS/JS 建置靜態網站，適合展示作品集、專案說明文件與醫療資訊工具入口。</p>
           </div>
         </div>
       </div>
@@ -518,21 +518,21 @@
       <div class="container">
         <div class="section-title">
           <h2>開發歷程</h2>
-          <p>可以放你的學習紀錄、專案版本、作品更新時間。</p>
+          <p>從臨床需求出發，逐步把藥品資料、疾病分類與醫療資料表轉換成可查詢、可維護的資訊系統。</p>
         </div>
         <div class="timeline">
           <div class="timeline-item">
             <div class="timeline-date">2026</div>
             <div>
-              <h3>建立 GitHub Pages 個人首頁</h3>
-              <p>整理作品集、技能與專案連結，作為公開展示入口。</p>
+              <h3>建立 GitHub Pages 作品集首頁</h3>
+              <p>整理藥學資訊專案、資料查詢工具與開發紀錄，作為公開展示與專案入口。</p>
             </div>
           </div>
           <div class="timeline-item">
             <div class="timeline-date">2025</div>
             <div>
-              <h3>資料查詢系統開發</h3>
-              <p>將藥品、ICD、ATC 等資料建立成可查詢、可更新的資料流程。</p>
+              <h3>藥品與 ICD 資料查詢系統開發</h3>
+              <p>將院內藥品資料、ICD-10-CM、ATC/AHFS 分類與健保資料整理成可查詢、可更新、可比對的資料流程。</p>
             </div>
           </div>
         </div>
@@ -542,8 +542,8 @@
     <section id="contact">
       <div class="container">
         <div class="cta">
-          <h2>把 GitHub 首頁變成你的作品入口</h2>
-          <p>修改名字、專案連結與卡片內容後，即可直接上傳 GitHub Pages。</p>
+          <h2>讓藥學專業變成可被使用的資訊工具</h2>
+          <p>此頁面可作為 GitHub 作品集、專案展示、學習紀錄與未來醫療資訊工具入口。</p>
           <a class="btn btn-primary" href="mailto:your.email@example.com">聯絡我</a>
         </div>
       </div>
@@ -551,7 +551,7 @@
   </main>
 
   <footer>
-    <div class="container">© <span id="year"></span> Your Name. Built with GitHub Pages.</div>
+    <div class="container">© <span id="year"></span> 謝沛宸. Built with GitHub Pages.</div>
   </footer>
 
   <script>
